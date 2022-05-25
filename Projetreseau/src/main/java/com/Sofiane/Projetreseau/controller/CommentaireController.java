@@ -50,7 +50,7 @@ public class CommentaireController {
 				return "commentaire  OK";
 			}
 
-			return "user n'existe pas";
+			return "user existe pas";
 		}
 
 		return "publication n'existe pas";
