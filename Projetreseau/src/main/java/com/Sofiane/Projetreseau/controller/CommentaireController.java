@@ -47,7 +47,7 @@ public class CommentaireController {
 				commentaire.setPublication(publication);
 				commentaire.setUtilisateur(utilisateur);
 				commentaireRepository.save(commentaire);
-				return "commentaire  OK";
+				return "OK";
 			}
 
 			return "user n'existe pas";
