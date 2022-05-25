@@ -53,6 +53,6 @@ public class CommentaireController {
 			return "user existe pas";
 		}
 
-		return "publication existe pas";
+		return "publication n'existe pas";
 	}
 }
