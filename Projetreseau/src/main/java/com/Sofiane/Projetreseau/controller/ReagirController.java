@@ -46,7 +46,7 @@ public class ReagirController {
 				reagir.setPublication(publication);
 				reagir.setUtilisateur(utilisateur);
 				reagirRepository.save(reagir);
-				return "Affecter OK";
+				return "OK";
 			}
 
 			return "user n'existe pas";
